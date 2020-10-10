@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "debug": "nodemon node ./bin/www",
     "test": "jest",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix npm run start --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix npm run start --prefix client"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
